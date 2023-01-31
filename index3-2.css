@@ -1,0 +1,50 @@
+#menu {
+    display: flex;
+
+}
+
+.menu-items {
+    flex: 25%;
+    margin-right: 3px;
+    background-color: black;
+    color: white;
+    padding: 0px 20px;
+}
+
+img {
+    margin: 20px 10px 10px 20px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.items {
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+    margin: 50px;
+    height: 80vh;
+}
+
+body {
+    background-color: grey;
+
+}
+.cover-img {
+    display: flex;
+}
+
+.score {
+    font-size: 175px;
+    text-align: center;
+    margin: 20px 10px 10px 20px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+}
+
+ul {
+    display: block;
+}
+

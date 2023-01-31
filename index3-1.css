@@ -1,0 +1,31 @@
+body {
+    background-color: grey;
+    background-image: url("index3-1.png");
+    background-position: left top;
+    background-size: 20%;
+    background-repeat: no-repeat;
+}
+
+
+.contain {
+    display: block;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: 50px;
+    background-color: white;
+    padding: 20px;
+}
+
+.dots {
+    display: block;
+    max-width: 60%;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: 50px;
+    border-style: dotted solid dashed;
+    border-color:black;
+    margin-top: 50px;
+
+}
+
+

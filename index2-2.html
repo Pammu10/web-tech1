@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<style>
+		.forms {
+			height: max-content;
+			width: 600px;
+			margin: auto;
+			border: 2px solid black;
+			padding: 20px 0;
+		}
+		.form-items {
+			width: max-content;
+			margin: auto;
+		}
+		.legend {
+			background-color: grey;
+			width: 100%;
+			text-align: center;	
+		}
+		.head {
+			margin-left: 100px
+		}
+	</style>
+</head>
+<body>
+	<div class="forms">
+    <form action="">
+		<div class="form-items">
+	<p class="legend">The World of Fruit</legend>
+	<p class="head">Fruit Survey</p>
+	<p><label for="name">Name</label>
+	<input type="text" id="name"></p>
+	<p>
+	<label for="address">Address</label>
+	<input type="address" id="address"></p>
+	<p>
+	<label for="email">Email</label>
+	<input type="email" id="email"></p>
+
+	<label for="fruit_number">How many peices of fruit do you eat per day?</label>
+	<p><input type="radio" id="0" value="0" name="fruit_number">
+		<label for="0">0</label>
+	</p>
+	<p><input type="radio" id="1" value="1" name="fruit_number">
+		<label for="1">1</label>
+	<p><input type="radio" id="2" value="2" name="fruit_number">
+		<label for="2">2</label>
+	</p>
+	<p><input type="radio" id="morethan2" value="more than 2" name="fruit_number">
+	<label for="morethan2">More than 2</label></p>
+	
+	<p>My favourite fruit </p>
+	<select title="fruit" size="4">
+		<option value="apple" selected>Apple </option>
+		<option value="banana">Banana </option>
+		<option value="plum">Plum </option>
+		<option value="pomegranate">Pomegranate</option>
+		</select>
+		<p><label for="broch">Would you like a brochure ? </label><input type="checkbox" title="broch"></p>
+	   
+	<input type="submit" value="submit">
+</div>
+</form>
+</div>
+</body>
+</html>
+
